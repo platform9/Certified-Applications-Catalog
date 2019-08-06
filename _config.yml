@@ -1,8 +1,9 @@
 theme: jekyll-theme-hacker
-title: Welcome to Platform9's certified application catalog community for Kubernetes 
-description: Please feel free to use our repository on the Github page above as a source repo for your Helm endeavours. 
-With this repository, Platform9 will be taking its best-in-class expertisie in SaaS-based SRE management of opensource Kubernetes on any infrastructure,
+title: Welcome to Platform9 curated applications catalog community 
+description: With this repository, Platform9 will be taking its best-in-class expertisie in SaaS-based SRE management of opensource Kubernetes on any infrastructure,
 and provide a specialized list of some of your favorit apps in ther form of either helm charts, or our own in-house operator contributions. 
+
+Please feel free to use our repository on the Github page above as a source repo for your Helm endeavours. 
 
 As always, ideas are welcome and we love to hear from our customers!. Please feel free to email us at sales@platform9.com 
 
