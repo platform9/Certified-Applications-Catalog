@@ -1,22 +1,3 @@
 theme: jekyll-theme-hacker
-title: "Welcome to Platform9 curated applications catalog community"
-description: "Platform9 Opensource Community for driving curated and certified applications via Helm and Operators"
-repository: "git@github.com:platform9/certified-apps.git" 
-logo: "/images/screen_applications-catalog2.png"  
-
-# Liquid
-liquid:
-  error_mode: strict
-
-# Site Author
-author:
-  name: Eric Bannon
-  email: eric.bannon4@gmail.com
-  twitter: Bannamal
-  links:
-    - title: Twitter
-      url: https://twitter.com/Bannamal
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/ericbannon/
-    - title: GitHub
-      url: https://github.com/ericbannon
+title: Welcome to Platform9 curated applications catalog community]
+description: Platform9 Opensource Community for driving curated and certified applications via Helm and Operators
