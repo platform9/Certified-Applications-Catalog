@@ -1,4 +1,4 @@
-theme: jekyll-theme-tactile
+theme: jekyll-theme-midnight
 title: The Platform9 community for up-leveling your apps 
 description: Easy consumption of applications on Kubernetes via opensource collaboration 
 repository: git@github.com:platform9/certified-apps.git 
