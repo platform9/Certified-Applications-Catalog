@@ -2,7 +2,7 @@
 
 ![screen_applications-catalog2](https://user-images.githubusercontent.com/34694236/62586046-a6745300-b870-11e9-8add-03dca2576e9a.png)
 
-## So what are we changing?: The Platform0 Opensource Certified Application Catlog 
+## So what are we changing?: A Platform9 Opensource Certified Application Catlog 
 
 While there are many pre-packaged Helm chart available, developers want the ability to deploy custom applications leveraging their own Helm charts and value. This also must happen alongside custom application templates and be vetted by automations teams  
 
