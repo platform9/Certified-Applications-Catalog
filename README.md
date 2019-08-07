@@ -10,6 +10,7 @@
 
 ## 2. Certified Application Catalog [Tech Preview]
 
+
 While there are many pre-packaged Helm charts available in the community today, developers want the ability to deploy custom applications leveraging their own Helm charts and values in multiple contexts and kubernetes infrastructures. This also must happen alongside custom application templates and be vetted by automations teams. With these complexities comes the next challenge of how to package applications into docker images, scan them for security constraints, productize them, and ship them via Helm or Operators via CICD. 
 
 As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots movement to make "bring your app" a possibility; and we want to do so with out sacrificing quality or security. This means that these charts will be curated continously by our team of solutions experts who are working with kubernetes teams every day in the field. 
@@ -26,7 +27,7 @@ Platform9's new "certified" applications catalog:
 
 For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA. 
 
-## 3. Premium Platform9 Managed Applications Solution
+## 3. Platform9 Fully Managed Applications
 
 
 The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kubernetes infrastructure and the application tier. Each managed app can be set up as a multi-tenant service across all clusters, or per specific clusters/namespaces.
@@ -57,7 +58,7 @@ The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kuberne
 
 See our other opensource projects active in the community below ... 
 
-## Platform9 Kubernetes Opensource Contribution Projects 
+## Platform9's Market Leading Opensource Contributions
 
 
 <h3>etcdadm (etcd admin)</h3><p>Inspired by kubeadm, etcdadm is an open source command-line tool that allows users to easily configure, install and operate secure etdc clusters that can run anywhere &#8211; in the cloud, on-premises, as well as on air-gapped environments.</p><p><a class="button-cta button-secondary" href="https://github.com/kubernetes-sigs/etcdadm" target="_blank" rel="noopener">See Github</a></p><p>
