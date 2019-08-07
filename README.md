@@ -1,14 +1,27 @@
 # Existing Application Catalog with hundreds of pre-built Kubernetes applications 
 
+
 ![screen_applications-catalog2](https://user-images.githubusercontent.com/34694236/62586046-a6745300-b870-11e9-8add-03dca2576e9a.png)
 
-## So what are we changing?: A Platform9 Opensource Certified Application Catlog 
+## What are we adding?: A Platform9 Opensource Certified Application Catlog 
 
-While there are many pre-packaged Helm chart available, developers want the ability to deploy custom applications leveraging their own Helm charts and value. This also must happen alongside custom application templates and be vetted by automations teams  
+While there are many pre-packaged Helm charts available in the community today, developers want the ability to deploy custom applications leveraging their own Helm charts and values in multiple contexts and kubernetes infrastructures. This also must happen alongside custom application templates and be vetted by automations teams. With these complexities comes the next challenge of how to package applications into docker images, scan them for security constraints, productize them, and ship them via Helm or Operators via CICD. 
 
-With Platform9's new "certified" applications catalog, the goal will be just this: to easily add additional custom templates either as Helm charts, YAML files, or Operators, and pre-package them in a way that is easy to deliver for operations, and simple to consume for developers 
+As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots movement to make "bring your app" a possibility; and we want to do so with out sacrificing quality or security. This means that these charts will be curated continously by our team of solutions experts who are working with kubernetes teams every day in the field. 
 
-These charts will be curated and continously maintained and operated by Platfrom9 engineering and SRE experts. Users will also have the choice to commit their own helm charts to the repo and the standard of excellence we are seeking to open up to the entire opensource community.
+Platform9's new "certified" applications catalog:
+
+* Easily adds additional custom templates either as Helm charts, YAML files, or Operators
+
+* Pre-packages them in a way that is easy to deliver for operations, and simple to consume for developers
+
+* Is free to use on your Kubernetes cluster even if you're not a Platform9 customer. 
+
+* Allows you to commit your own helm charts to the repo, adding to the standard of excellence
+
+* Bring the benefitw of Helm, along with the new wave of "bring your own operator", into Kubernetes 1.14 and beyond 
+
+For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA. 
 
 # Premium Platform9 Managed Applications with full SLAs 
 
@@ -35,11 +48,12 @@ The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kuberne
 
 * The popular relational database for stateful Kubernetes applications is delivered via Percona’s MySQL offering.
 
-And many more coming soon!
 
+....and many more coming soon!
 ![mapps](https://user-images.githubusercontent.com/34694236/62586149-37e3c500-b871-11e9-95d2-e9e111abbed7.png)
 
 ## Bring your own app! (Prototype in tech preview - NOT Generally Available yet) 
+
 
 ![Deploy Tab](https://user-images.githubusercontent.com/34694236/62586130-1682d900-b871-11e9-9674-84b0a41eec22.png)
 
