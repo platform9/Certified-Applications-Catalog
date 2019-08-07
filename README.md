@@ -3,6 +3,10 @@
 
 While there are many pre-packaged Helm charts available in the community today, developers want the ability to deploy custom applications leveraging their own Helm charts and values in multiple contexts and kubernetes infrastructures. This also must happen alongside custom application templates and be vetted by automations teams. With these complexities comes the next challenge of how to package applications into docker images, scan them for security constraints, productize them, and ship them via Helm or Operators via CICD. 
 
+<p><a class="button-cta button-secondary" href="https://github.com/platform9/certified-apps/tree/master/charts" target="_blank" rel="noopener">See some of our charts here</a></p><p>
+
+![image](https://user-images.githubusercontent.com/34694236/62664857-fe26c300-b931-11e9-85c8-1a2e580252ee.png)
+
 As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots movement to make "bring your app" a possibility; and we want to do so with out sacrificing quality or security. This means that these charts will be curated continously by our team of solutions experts who are working with kubernetes teams every day in the field. 
 
 ### Platform9's new "certified" applications catalog
