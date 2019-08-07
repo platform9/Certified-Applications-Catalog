@@ -1,4 +1,4 @@
-theme: "jekyll-theme-hacker"
+theme: jekyll-theme-hacker
 title: "Welcome to Platform9 curated applications catalog community"
 description: "Platform9 Opensource Community for driving curated and certified applications via Helm and Operators"
 repository: "git@github.com:platform9/certified-apps.git" 
