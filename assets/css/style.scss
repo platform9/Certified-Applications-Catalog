@@ -2,3 +2,531 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$header-color: #00abe8;
+
+.home {
+  padding-top: 157px;
+  padding-bottom: 50px;
+  font-family: 'Avenir LT W01_65 Medium1475532', helvetica, arial;
+  .home_banner {
+    background-image: url('/assets/key-bg-doc.png');
+    background-color: rgba(0, 171, 232, 0.5);
+    height: 320px;
+    text-align: center;
+    h2 {
+      font-size: 45px;
+      font-weight: 500;
+      color: #ffffff;
+      padding-top: 5%;
+    }
+    p {
+      font-size: 18px;
+      color: #ffffff;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+  .topic-box {
+    .row {
+      margin-top: 40px;
+    }
+    a, a:hover {
+      text-decoration: none;
+    }
+    .well {
+      background-color: white;
+      border: solid 1px #4aa3df;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 40px;
+      // TODO: Get rid of min height and match heights of boxes instead
+      min-height: 305px;
+    }
+    .well-top {
+      display: flex;
+    }
+    .well-bottom {
+      margin-top: 15px;
+      display: flex;
+    }
+    .well-logo {
+      flex: 0 0 100px;
+      height: 100px;
+      display: flex;
+
+      img {
+        width: 100px;
+        max-height: 100px;
+        max-width: 100px;
+        align-self: center;
+      }
+    }
+    .well-filler {
+      flex: 0 0 100px;
+    }
+    .well-text {
+      flex-grow: 1;
+      align-self: center;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: left;
+      h3 {
+        font-size: 24px;
+      }
+    }
+    .well-description {
+      flex-grow: 1;
+      font-size: 18px;
+      padding-left: 30px;
+      text-align: left;
+      font-family: Avenir;
+      color: #606060;
+    }
+    h4 {
+      margin-bottom: 10px;
+      img {
+        max-width: 15%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #606060;
+    }
+    h6 {
+      font-size: 15px;
+      color: #606060;
+    }
+  }
+  .topic-links {
+    .row {
+      margin-top: 40px;
+    }
+    .heading {
+      margin-bottom: 15px;
+    }
+    .link-wrap {
+      padding-bottom: 15px;
+    }
+    .link-url {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .link-date {
+      font-size: 12px;
+      color: #999999;
+    }
+  }
+}
+@import "callout";
+@import "external-link-styling";
+
+.content {
+  @import "syntax_highlight";
+  margin: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-top: 196px;
+  // padding-bottom: 50px;
+  // padding-left: 10px;
+  // padding-right: 10px;
+
+  .block_title {
+    font-size: 2.5rem;
+    font-family: "Avenir LT W01_65 Medium1475532", helvetica, arial;
+    color: $header-color;
+
+    a {
+      font-family: "Avenir LT W01_65 Medium1475532";
+    }
+
+    h2 {
+      font-family: "Avenir LT W01_65 Medium1475532";
+    }
+
+    h1 {
+      font-family: "Avenir LT W01_65 Medium1475532";
+      font-size: 40px;
+    }
+
+    p {
+      font-family: "Avenir LT W01_45 Book1475508", helvetica, arial;
+      font-size: 20px;
+    }
+  }
+
+  .post_tags {
+    font-size: .875rem;
+    line-height: 1;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .post_date {
+    font-size: .875rem;
+    line-height: 1;
+  }
+
+  pre {
+    border: 1px solid #f8f8f8!important;
+    margin: 2rem 0!important;
+    font-family: monospace!important;
+    font-size: .875rem!important;
+    border-radius: .25rem!important;
+  }
+
+  pre code {
+    width: 100%!important;
+    font-size: .875rem!important;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    background: #343334!important;
+    color: #fff!important;
+    display: inline-block;
+  }
+
+  pre:before {
+    padding: 1rem 0!important;
+    font-size: .875rem!important;
+  }
+
+  a.st-ui-result .st-ui-type-detail {
+    max-height: unset;
+  }
+}
+
+pre {
+  background-color: inherit !important;
+  width: inherit !important;
+  border: 0px !important;
+  clear: left !important;
+  font-size: 12px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  position: relative !important;
+  word-wrap: normal !important;
+  overflow: auto !important;
+}
+
+pre code {
+  border: 0px !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 40px !important;
+  padding-right: 12px !important;
+  padding-top: 0px !important;
+  background-repeat: repeat !important;
+}
+
+pre:before {
+  content: attr(data-lines) !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  display: block !important;
+  position: absolute !important;
+  float: left !important;
+  top: 0px !important;
+  text-align: right !important;
+  left: 0px !important;
+  width: 24px !important;
+  color: #d2d2d2 !important;
+  opacity: 1 !important;
+  -webkit-transition: opacity 0.4s !important;
+  -moz-transition: opacity 0.4s !important;
+  transition: opacity 0.4s !important;
+}
+
+.hljs {
+  display: inline-block !important;
+}
+
+@font-face{font-family:TablePress;src:url(//platform9.com/wp-content/plugins/tablepress/css/tablepress.eot);src:url(//platform9.com/wp-content/plugins/tablepress/css/tablepress.eot?#ie) format('embedded-opentype'),url(data:application/x-font-woff;base64,d09GRgABAAAAAAXYAAwAAAAACXwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABHAAAABwAAAAcZInHOk9TLzIAAAE4AAAAPgAAAGB7NXPDY21hcAAAAXgAAABMAAABUvD45QVnYXNwAAABxAAAAAgAAAAIAAAAEGdseWYAAAHMAAABKQAAAgjYVHFyaGVhZAAAAvgAAAAvAAAANv2jaBNoaGVhAAADKAAAAB0AAAAkCk0F6GhtdHgAAANIAAAAIAAAACgoAADqbG9jYQAAA2gAAAAWAAAAFgJWAbxtYXhwAAADgAAAAB0AAAAgAE4AH25hbWUAAAOgAAAB3AAAA43ZugaUcG9zdAAABXwAAABZAAAAgeNVfAkAAAABAAAAAMwXcmMAAAAAy1XFoAAAAADNHI82eJxjYGbexjiBgZWBhaWHxZiBgaENQjMVM0SB+ThBQWVRMYPDh+APd9gY/gP5bAyMykCKEUmJAgMjAC56Ct8AAHicY2BgYGaAYBkGRgYQ8AHyGMF8FgYDIM0BhEwMDB9CPtz6cOf/fyAr+MN1EIt/A78evy5UFxgwsjHAuYxAPSB9KICRYdgDAL67D8kAAQAB//8AD3icXU/NTsJAEJ5ZFggxxmCbkiwHAzLTowlu4ejeyxPwCOBR7r3rE/geeubuG3i3TyGts12MtT18ndnd7w8QsvpdX/Q/IAboI9s1rpY3mMTDkcAVDuaqPD0RqRfaU05UGSxJhj2p5wDNUplqyjsZQT6EQ/2mc9GcyBIPReQOObPrkccHMZhgonMS3R1tiLCsDNFm8bgQF3W06ekgqqnN5Aa//D9nlrOgDeg09Aq4lK3RTiX16n621BBVLrIe2PQK09s2c4THyPIvF4TrAndwO5uHvhPUwOa7MNw8FsCtZfZDJBKB66BQhW58cRwHW09OVMEtI+3aOhEHX+E63crM2dh6X+WazMFLvf6F57OvAqiPGvo+87Tb+LrT4X9/7lT6bKXs9vsByDlkyAAAAHicY2BkYGAA4mO9Sxji+W2+MnCzM4DAWZl+bwT9fyuLN+tpIJeDgQkkCgAbqgoOAHicY2BkYGBj+HeXgYGdAQRYvBkYGVABFwA+hgJEAAAAeJxjZ4AAdiBmaWAwBeJSFhAbiJkaGByAGMwGADa+AxEAAAAAAAAAAAAqAFgAdgCUALIA0AEEAAB4nGNgZGBg4GKQYWBiAAEQycgAEnMA8xkABjEAbgAAAHicjZJBaxNBFMf/u0mbJoig5KC3QcRblt2tFCm9lEp701iKIHiZJLPJ0mSnzE5S8h38BB79Nn4ab94E/zN9JVB7MCEzv/3Pm/f+720ADPEbCe4/qXCCAV4Kp+jhrXAHGb4Ld/Ecv4T38Cx5I7yPQfJBuIdPyR/hAzxJa+E+Buk3Zku6fal8xwn9dIRTPMVr4Q6+4kS4S/Wn8B5eJanwPobJO+EefiRfhA/wIv0o3Mcw3YRyV9CYYAmDMRzXll9c6cnSjJ1pyZcU51gzRDMAl2a+XmrCOSwa+Lg7RhgolJxKzv2Yv8cSqwfZ7iILHGHEdcT7OfdDJreNP7dublSZ5epY7QwpMUCxOBoVozIvDh/v4mEx/JsE+MwQx+A6dhO8hA7y2EvwUjLEuLa2jSqyPFcsV/7H0MbxUFMOYwkhVSykODAb10U8OePTDbY8qel0QV3FO1PSvaUqDnh3p5LBB8WxxozqKnZ4TU1T9THfhJ3vsjTcw9M02s1ocWl0a5QzlXHKW+UXRp3Zm62r5wuvWjP1oenKunhS8YUo7/TMrLS7Vtp7V0/WMaSxvp6aNoP8FYKzU9zGOpbOTHidzqvTW9PaFZ/e0+QmtnJBatjAlqLeGHWhm9kWfwGPR6C4eJxjYGIAg/9VDFEM2AAXEDMyMDEyMTIzsjCyMrIxsjNy8CRnpJYV5efF56SmlfDCOEWZ6RklXMmJRakl8Sn55XkcEGZpAVQMpJgbwgQrZSnOLyoBACnGHqgAAAA=) format('woff'),url(//platform9.com/wp-content/plugins/tablepress/css/tablepress.ttf) format('truetype'),url(//platform9.com/wp-content/plugins/tablepress/css/tablepress.svg#TablePress) format('svg');font-weight:400;font-style:normal}.tablepress-table-description{clear:both;display:block}.tablepress{border-collapse:collapse;border-spacing:0;width:100%;margin-bottom:1em;border:none}.tablepress td,.tablepress th{padding:8px;border:none;background:0 0;text-align:left;float:none!important}.tablepress tbody td{vertical-align:top}.tablepress tbody td,.tablepress tfoot th{border-top:1px solid #ddd}.tablepress tbody tr:first-child td{border-top:0}.tablepress thead th{border-bottom:1px solid #ddd}.tablepress tfoot th,.tablepress thead th{background-color:#d9edf7;font-weight:700;vertical-align:middle}.tablepress .odd td{background-color:#f9f9f9}.tablepress .even td{background-color:#fff}.tablepress .row-hover tr:hover td{background-color:#f3f3f3}.tablepress img{margin:0;padding:0;border:none;max-width:none}.dataTables_wrapper{clear:both;margin-bottom:1em}.dataTables_wrapper .tablepress{clear:both;margin:0!important}.dataTables_length{float:left;white-space:nowrap}.dataTables_filter{float:right;white-space:nowrap}.dataTables_wrapper .dataTables_filter input{margin-left:.5em}.dataTables_info{clear:both;float:left;margin:4px 0 0}.dataTables_paginate{float:right;margin:4px 0 0}.dataTables_paginate a{color:#111!important;display:inline-block;outline:0;position:relative;text-decoration:underline;margin:0 5px}.dataTables_paginate a:first-child{margin-left:0}.dataTables_paginate a:last-child{margin-right:0}.paginate_button:hover{cursor:pointer;text-decoration:none}.paginate_button.disabled{color:#999!important;text-decoration:none;cursor:default}.paginate_button.current{font-weight:700;text-decoration:none;cursor:default}.dataTables_paginate.paging_simple{padding:0 15px}.paging_simple .paginate_button.next:after,.paging_simple .paginate_button.previous:before{text-align:left;font-family:TablePress;font-size:14px;font-weight:700;-webkit-font-smoothing:antialiased;content:"\f053";text-shadow:.1em .1em #666;position:absolute;top:0;right:auto;bottom:0;left:-14px;margin:auto;height:14px;width:14px;line-height:1}.paging_simple .paginate_button.next:after{text-align:right;content:"\f054";left:auto}.paginate_button:after,.paginate_button:before{color:#d9edf7}.paginate_button:hover:after,.paginate_button:hover:before{color:#049cdb}.paginate_button.disabled:after,.paginate_button.disabled:before{color:#f9f9f9}.dataTables_processing{display:none}.dataTables_scroll{clear:both}.dataTables_scrollBody{-webkit-overflow-scrolling:touch}.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody td>div.dataTables_sizing,.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody th>div.dataTables_sizing{height:0;overflow:hidden;margin:0!important;padding:0!important}.tablepress .sorting,.tablepress .sorting_asc,.tablepress .sorting_desc{position:relative;padding-right:20px;cursor:pointer;outline:0}.tablepress .sorting:after,.tablepress .sorting_asc:after,.tablepress .sorting_desc:after{font-family:TablePress;font-weight:400;font-size:14px;-webkit-font-smoothing:antialiased;position:absolute;top:0;bottom:0;left:auto;right:6px;margin:auto;height:14px;line-height:1}.tablepress .sorting:after{content:"\f0dc"}.tablepress .sorting_asc:after{content:"\f0d8";padding:0 0 2px}.tablepress .sorting_desc:after{content:"\f0d7"}.tablepress .sorting:hover,.tablepress .sorting_asc,.tablepress .sorting_desc{background-color:#049cdb}.dataTables_scrollBody .tablepress thead th:after{content:""}.dataTables_wrapper:after{content:"";display:block;clear:both;visibility:hidden;line-height:0;height:0}.dataTables_wrapper label input,.dataTables_wrapper label select{display:inline;margin:2px;width:auto}
+.tablepress-id-14 .column-2{width:40%}.tablepress-id-14 .column-3{width:40%}
+
+.header {
+  height: initial;
+  padding-bottom: 0px;
+}
+
+.ctn {
+  height: initial;
+}
+
+.ctn-sup-nav {
+  background-color: $header-color;
+
+  .ctn {
+    z-index: 1;
+  }
+
+  .sup-nav {
+    margin-top: 15px;
+    height: 46px;
+
+    .left-nav {
+      padding: 10px 0px;
+      float: left;
+      color: white;
+      vertical-align: bottom;
+      font-weight: bold;
+      letter-spacing: 1.1px;
+
+      .pf9-docs {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 2px;
+        font-size: 18px;
+      }
+
+      .pf9-docs-dropdown:after {
+        content: '';
+        width: 150px;
+        height: 7px;
+        background: rgba(0, 0, 0, .2);
+        z-index: 10;
+        display: none;
+        position: absolute;
+        border: 3px solid white;
+        border-left: 8px solid white;
+        border-right: 8px solid white;
+      }
+
+      .pf9-docs-dropdown.open:after {
+        display: inline-block;
+      }
+
+      .pf9-docs-dropdown.open {
+        border-radius: 2px 2px 0px 0px;
+      }
+
+      .pf9-docs-dropdown {
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        background: white;
+        border-radius: 2px;
+        margin-left: 10px;
+
+        #active-product {
+          padding: 6px 12px;
+          display: block;
+
+          .caret {
+            position: absolute;
+            top: 13px;
+            right: 10px;
+            color: #606060;
+          }
+        }
+
+        #active-product:before {
+          content: none;
+        }
+
+        #active-product.kubernetes {
+          padding: 3px 12px;
+        }
+
+        #product-dropdown {
+          position: absolute;
+          background: white;
+          width: 150px;
+          border-radius: 0px 0px 2px 2px;
+          box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 0 1px 0 rgba(0, 0, 0, 0.2);
+          padding: 5px 0px;
+          z-index: -1;
+        }
+
+        .logo-container {
+          padding: 8px 0px 8px 12px;
+          cursor: pointer;
+        }
+
+        .logo-container:hover {
+          background: #f0f0f0;
+        }
+
+        .openstack-logo {
+          height: 18px;
+        }
+
+        .kubernetes-logo {
+          height: 24px;
+        }
+      }
+    }
+
+    ul {
+      padding: 10px 0px;
+      float: left;
+      color: white;
+      vertical-align: bottom;
+      li {
+        display: inline-block;
+        margin-left: 20px;
+
+        a {
+          color: white;
+        }
+      }
+
+      li:first-of-type {
+        margin-left: 0px;
+      }
+
+      .sup-nav-link {
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .sup-nav-link:hover {
+        text-decoration: underline;
+      }
+
+      .sup-nav-link.active {
+        text-decoration: underline;
+      }
+    }
+
+    .sup-nav-search {
+      float: right;
+      padding: 12px 0px;
+      position: relative;
+
+      .st-default-search-input,.st-ui-search-input {
+        top: -3px;
+        position: relative;
+        width: 211px;
+        height: 16px;
+        line-height: 17px;
+        border: none;
+        border-radius: 0px;
+      }
+
+      .submit-request {
+        position: relative;
+        bottom: 4px;
+        margin-left: 30px;
+
+        a {
+          font-weight: 500;
+          color: white;
+          font-size: 14px;
+          font-family: Avenir;
+          letter-spacing: .66px;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .release-notes {
+        position: relative;
+        bottom: 4px;
+        margin-left: 30px;
+
+        a {
+          font-weight: 500;
+          color: white;
+          font-size: 14px;
+          font-family: Avenir;
+          letter-spacing: .66px;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .sup-nav {
+      height: 115px;
+
+      ul {
+        float: none;
+        text-align: center;
+      }
+
+      .sup-nav-search {
+        float: none;
+        text-align: center;
+
+        input {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .sup-nav {
+      .sup-nav-search {
+        .st-default-search-input,.st-ui-search-input {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+// Fixes #8. Footer information is hidden on search with no results
+section.st-ui-no-results .st-ui-type-heading {
+  position: unset !important;
+  margin: unset !important;
+}
+
+.content .gsc-control-cse table td {
+  padding: none;
+  border: none;
+}
+
+@import "sidebar";
+
+.nav__logo {
+    width: 21rem !important;
+}
+
+@media (max-width:75em) {
+    .nav__logo {
+        width: 16rem !important;
+    }
+}
+
+@media (max-width:56em) {
+    .nav__logo {
+        width: 15rem !important;
+    }
+}
+
+@media (max-width:25em) {
+    .nav__logo {
+        width: 14rem !important;
+    }
+}
+
+.content ul li {
+  margin-bottom: 0px;
+}
