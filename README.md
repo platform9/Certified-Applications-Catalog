@@ -6,7 +6,7 @@ While there are many pre-packaged Helm charts available in the community today, 
 
 As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots movement to make "bring your app" a possibility; and we want to do so with out sacrificing quality or security. This means that these charts will be curated continously by our team of solutions experts who are working with kubernetes teams every day in the field. 
 
-## 2. Platform9's new "certified" applications catalog
+### Platform9's new "certified" applications catalog
 
 * Easily adds additional custom templates either as Helm charts, YAML files, or Operators
 
