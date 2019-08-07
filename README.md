@@ -4,6 +4,8 @@ While there are many pre-packaged Helm charts available in the community today, 
 
 <p><a class="button-cta button-secondary" href="https://github.com/platform9/certified-apps/tree/master/charts" target="_blank" rel="noopener">See some of our charts here</a></p>
 
+<img width="642" alt="Screen Shot 2019-08-07 at 4 39 26 PM" src="https://user-images.githubusercontent.com/34694236/62665382-e6503e80-b933-11e9-80d9-2a86adc1b7d3.png">
+
 As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots movement to make "bring your app" a possibility; and we want to do so with out sacrificing quality or security. This means that these charts will be curated continously by our team of solutions experts who are working with kubernetes teams every day in the field. 
 
 ### Platform9's new "certified" applications catalog
