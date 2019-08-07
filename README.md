@@ -32,7 +32,7 @@ As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots
 
 * Creates a production ready experience for application lifecycle management without much testing
 
-* Self-service and Opensource 
+* Is fully self-service and opensource 
 
 For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA. 
 
