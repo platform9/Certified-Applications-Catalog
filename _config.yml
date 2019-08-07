@@ -1,13 +1,7 @@
-theme: jekyll-theme-hacker
-
+theme: "jekyll-theme-hacker"
 title: "Welcome to Platform9 curated applications catalog community"
-
 description: "Platform9 Opensource Community for driving curated and certified applications via Helm and Operators"
-
 repository: "git@github.com:platform9/certified-apps.git" 
-
-baseurl: "https://platform9.com/open-source/"
-
 logo: "/images/screen_applications-catalog2.png"  
 
 # Liquid
@@ -22,9 +16,7 @@ author:
   links:
     - title: Twitter
       url: https://twitter.com/Bannamal
-      icon: fab fa-twitter-square
     - title: LinkedIn
       url: https://www.linkedin.com/in/ericbannon/
     - title: GitHub
       url: https://github.com/ericbannon
-      icon: fab fa-github-square
