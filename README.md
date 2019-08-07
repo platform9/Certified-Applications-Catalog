@@ -2,7 +2,7 @@ Existing Application Catalog with hundreds of pre-built Kubernetes applications
 
 ![screen_applications-catalog2](https://user-images.githubusercontent.com/34694236/62586046-a6745300-b870-11e9-8add-03dca2576e9a.png)
 
-## What are we adding?: A Platform9 Opensource Certified Application Catlog 
+## Coming Soon: A Platform Certified Application Catalog for everyone 
 
 While there are many pre-packaged Helm charts available in the community today, developers want the ability to deploy custom applications leveraging their own Helm charts and values in multiple contexts and kubernetes infrastructures. This also must happen alongside custom application templates and be vetted by automations teams. With these complexities comes the next challenge of how to package applications into docker images, scan them for security constraints, productize them, and ship them via Helm or Operators via CICD. 
 
