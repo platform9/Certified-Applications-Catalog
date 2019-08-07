@@ -1,10 +1,14 @@
-## Existing Application Catalog with hundreds of pre-built Kubernetes applications 
+## 1. Platform9 Community Application Catalog
 
+* Hundreds of pre-built Kubernetes applications
+* Bring your own repositories 
+* One-click deployment 
+* Full RBAC controls over deployments and access to namespaces 
+* Leverages community Helm charts from google and helm/stable, helm/incubator 
 
 ![screen_applications-catalog2](https://user-images.githubusercontent.com/34694236/62586046-a6745300-b870-11e9-8add-03dca2576e9a.png)
 
-## A Platform Certified Application Catalog [Tech Preview]
-
+## 2. Certified Application Catalog [Tech Preview]
 
 While there are many pre-packaged Helm charts available in the community today, developers want the ability to deploy custom applications leveraging their own Helm charts and values in multiple contexts and kubernetes infrastructures. This also must happen alongside custom application templates and be vetted by automations teams. With these complexities comes the next challenge of how to package applications into docker images, scan them for security constraints, productize them, and ship them via Helm or Operators via CICD. 
 
@@ -13,23 +17,21 @@ As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots
 Platform9's new "certified" applications catalog:
 
 * Easily adds additional custom templates either as Helm charts, YAML files, or Operators
-
 * Pre-packages them in a way that is easy to deliver for operations, and simple to consume for developers
-
 * Is free to use on your Kubernetes cluster even if you're not a Platform9 customer. 
-
 * Allows you to commit your own helm charts to the repo, adding to the standard of excellence
-
 * Bring the benefitw of Helm, along with the new wave of "bring your own operator", into Kubernetes 1.14 and beyond 
+* Creates a production ready experience for application lifecycle management without much testings 
+* Self-service and Opensource 
 
 For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA. 
 
-## Premium Platform9 Managed Applications Solution
+## 3. Premium Platform9 Managed Applications Solution
 
 
 The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kubernetes infrastructure and the application tier. Each managed app can be set up as a multi-tenant service across all clusters, or per specific clusters/namespaces.
 
-## Managed Prometheus 
+### Managed Prometheus 
 
 
 * The Prometheus stack and Alert Manager, with HA, persistent storage, DR, and more enabled 
@@ -38,13 +40,13 @@ The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kuberne
 
 * All handled automatically, with no need for Admin intervention via OLM and CRDS managed by Platform9
 
-## Managed EFK: Fluentd, Elastic and Kibana
+### Managed EFK: Fluentd, Elastic and Kibana
 
 
 * Integrated logging and indexing service
 
 
-## Managed MySQL
+### Managed MySQL
 
 
 * The popular relational database for stateful Kubernetes applications is delivered via Percona’s MySQL offering.
@@ -53,7 +55,9 @@ The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kuberne
 ....and many more coming soon!
 ![mapps](https://user-images.githubusercontent.com/34694236/62586149-37e3c500-b871-11e9-95d2-e9e111abbed7.png)
 
-# Platform9 Kubernetes Opensource Contribution Projects 
+See our other opensource projects active in the community below ... 
+
+## Platform9 Kubernetes Opensource Contribution Projects 
 
 
 <h3>etcdadm (etcd admin)</h3><p>Inspired by kubeadm, etcdadm is an open source command-line tool that allows users to easily configure, install and operate secure etdc clusters that can run anywhere &#8211; in the cloud, on-premises, as well as on air-gapped environments.</p><p><a class="button-cta button-secondary" href="https://github.com/kubernetes-sigs/etcdadm" target="_blank" rel="noopener">See Github</a></p><p>
