@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
-title: The Platform9 community for polishing Helm charts and Operators
-description: 100% deisgned for easy consumption of applications on Kubernetes via opensource collaboration 
+title: The Platform9 community for up-leveling your apps 
+description: Easy consumption of applications on Kubernetes via opensource collaboration 
 repository: git@github.com:platform9/certified-apps.git 
 logo: /images/screen_applications-catalog2.png  
