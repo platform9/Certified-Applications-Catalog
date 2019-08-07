@@ -1,3 +1,5 @@
 theme: jekyll-theme-hacker
-title: Welcome to Platform9 opensource app catalog community
-description: Platform9 Opensource Community for driving curated and certified applications via Helm and Operators
+title: Welcome to the Platform9 app catalog community
+description: A Platform9 Opensource community for driving curated and certified applications via Helm and Operators
+repository: git@github.com:platform9/certified-apps.git 
+logo: /images/screen_applications-catalog2.png  
