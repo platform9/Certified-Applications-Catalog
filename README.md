@@ -18,7 +18,7 @@ As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots
 
 * Allows you to commit your own helm charts to the repo, adding to the standard of excellence
 
-* Bring the benefitw of Helm, along with the new wave of "bring your own operator", into Kubernetes 1.14 and beyond
+* Bring the benefits of Helm, along with the new wave of "bring your own operator", into Kubernetes 1.14 and beyond
 
 * Creates a production ready experience for application lifecycle management without much testing
 
@@ -50,6 +50,8 @@ Each new managed application introduced in the Managed Apps catalog will first b
 
 SLAs for the individual apps would be complementary to the SLA that Platform9 already provides for the Kubernetes infrastructure itself. Depending on the complexity of the managed application chosen, the SLA and fully-managed functionality may also cover additional capabilities–such as cross-geo disaster recovery for databases and advanced integrated services with other complementary managed applications offered, automatic backup/recover, auto-scaling, and more.
 
+![mapps](https://user-images.githubusercontent.com/34694236/62586149-37e3c500-b871-11e9-95d2-e9e111abbed7.png)
+
 In many of these cases, Platform9 will partner directly with various organizations behind specific applications or Kubernetes Operators, to advance the development and ongoing support for its customers. The first of such collaboration is with Percona, around its MySQL offering – enabling automatic backups, DR, zero-touch upgrades, support, and more.
 
 ### Managed Prometheus 
@@ -69,9 +71,6 @@ In many of these cases, Platform9 will partner directly with various organizatio
 * The popular relational database for stateful Kubernetes applications is delivered via Percona’s MySQL offering.
 
 ....and many more coming soon!
-![mapps](https://user-images.githubusercontent.com/34694236/62586149-37e3c500-b871-11e9-95d2-e9e111abbed7.png)
-
-See our other opensource projects active in the community below ... 
 
 ## Platform9's Market Leading Opensource Contributions
 
