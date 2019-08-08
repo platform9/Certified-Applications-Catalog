@@ -26,25 +26,31 @@ As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots
 
 ## 2. Platform9 Community Application Catalog
 
-* Hundreds of pre-built Kubernetes applications
+* Hundreds of pre-built Kubernetes applications from existing Helm repos
 
-* Bring your own repositories 
+* Ability to add your own repositories 
 
-* One-click deployment 
+* One-click deployment of Helm charts 
 
 * Full RBAC controls over deployments and access to namespaces 
 
 * Leverages community Helm charts (google helm/stable, helm/incubator, etc...) 
 
-Note: Certified App Catalog will be a Platform9 hosted repository on Github that specifically manages a set of highly selected helm charts along with the ability to edit values.yaml very easily. 
-
 ![screen_applications-catalog2](https://user-images.githubusercontent.com/34694236/62586046-a6745300-b870-11e9-8add-03dca2576e9a.png)
 
-For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA.
+Note: Certified App Catalog will be a Platform9 hosted repository on Github that specifically manages a set of highly selected helm charts along with the ability to edit values.yaml very easily. 
+
+For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA and require a subscription license for a fully managed experience with 99.9% SLAs. This will be mostly based on curating, and contributing to, operators that are most commonly used in production on Kubernetes
 
 ## 3. Platform9 Fully Managed Applications
 
 The industry’s only integrated, end-to-end 99.9% SLA spanning both the Kubernetes infrastructure and the application tier. Each managed app can be set up as a multi-tenant service across all clusters, or per specific clusters/namespaces.
+
+Each new managed application introduced in the Managed Apps catalog will first be released in a “Beta” phase and will gradually progress to the “Fully-managed” level as it matures, and all supported capabilities graduate into production-readiness.
+
+SLAs for the individual apps would be complementary to the SLA that Platform9 already provides for the Kubernetes infrastructure itself. Depending on the complexity of the managed application chosen, the SLA and fully-managed functionality may also cover additional capabilities–such as cross-geo disaster recovery for databases and advanced integrated services with other complementary managed applications offered, automatic backup/recover, auto-scaling, and more.
+
+In many of these cases, Platform9 will partner directly with various organizations behind specific applications or Kubernetes Operators, to advance the development and ongoing support for its customers. The first of such collaboration is with Percona, around its MySQL offering – enabling automatic backups, DR, zero-touch upgrades, support, and more.
 
 ### Managed Prometheus 
 
