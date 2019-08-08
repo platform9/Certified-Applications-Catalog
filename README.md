@@ -22,9 +22,7 @@ As experts in managed Kubernetes and SaaS, we are now spearheading a grass-roots
 
 * Creates a production ready experience for application lifecycle management without much testing
 
-* Is fully self-service and opensource 
-
-For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA. 
+* Is fully self-service and opensource  
 
 ## 2. Platform9 Community Application Catalog
 
@@ -38,7 +36,11 @@ For enterprise grade SLAs and fully managed applications that follow the same ph
 
 * Leverages community Helm charts (google helm/stable, helm/incubator, etc...) 
 
+Note: Certified App Catalog will be a Platform9 hosted repository on Github that specifically manages a set of highly selected helm charts along with the ability to edit values.yaml very easily. 
+
 ![screen_applications-catalog2](https://user-images.githubusercontent.com/34694236/62586046-a6745300-b870-11e9-8add-03dca2576e9a.png)
+
+For enterprise grade SLAs and fully managed applications that follow the same philosophy, please continue reading below on our Managed Applications Solution which is currently GA.
 
 ## 3. Platform9 Fully Managed Applications
 
